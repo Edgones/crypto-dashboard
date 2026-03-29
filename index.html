@@ -2,8 +2,10 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
+    <!-- 1. VIEWPORT: Garante que o site seja responsivo e se ajuste ao celular -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Crypto Dash | Monitor em Tempo Real</title>
+    <!-- 2. CSS: Vinculamos o arquivo de estilos que criamos na pasta css -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -12,18 +14,22 @@
       <p>Dados em tempo real via CoinGecko API</p>
     </header>
 
+    <!-- 3. DASHBOARD: O "palco" onde o JavaScript vai construir os cards de preço -->
     <main id="dashboard">
-      <!-- O JavaScript vai injetar os cards de moedas aqui dentro -->
+      <!-- Esta mensagem aparece apenas enquanto a internet busca os dados -->
       <div id="loading" class="status-msg">Carregando dados do mercado...</div>
     </main>
 
     <footer>
-      <p>&copy; 2026 - Desenvolvido por Edgones | Desenvolvedor Autodidata focado em fundamentos e boas práticas.</p>
+      <p>
+        &copy; 2026 - Desenvolvido por Edgones | Desenvolvedor Autodidata focado
+        em fundamentos e boas práticas.
+      </p>
     </footer>
 
-    <script src="./js/script.js"></script>
+    <!-- 4. JAVASCRIPT: Carregamos o motor no final do arquivo.
+         Isso garante que o navegador já desenhou todo o HTML antes do script tentar agir,
+         evitando o erro de "dashboard is null". -->
+    <script src="js/script.js"></script>
   </body>
 </html>
-    <script src="js/config.js"></script>
-    <script src="js/script.js"></script>
-</body>
