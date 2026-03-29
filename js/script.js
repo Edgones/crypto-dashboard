@@ -3,8 +3,7 @@
  * Aqui usamos a URL absoluta fornecida pela CoinGecko.
  * O parâmetro 'x_cg_demo_api_key' é o nosso "crachá" de acesso que evita bloqueios.
  */
-const API_URL =
-  "https://api.coingecko.com/api/v3/simple/price?vs_currencies=usd&ids=bitcoin&x_cg_demo_api_key=CG-tYZVb6GJm6yTr3KD7RJm8ABs";
+const API_URL = `https://api.coingecko.com{CONFIG.API_KEY}`;
 
 /**
  * 2. FUNÇÃO ASSÍNCRONA (Async/Await)
