@@ -22,7 +22,7 @@ Este é um Dashboard Financeiro desenvolvido para monitoramento em tempo real do
 
 - [x] Cotação em tempo real (BTC/USD e BTC/BRL).
 - [x] Formatação financeira de precisão (66.408,3).
-- [x] Atualização automática via Polling (60 segundos).
+- [x] Atualização automática via Polling (30 segundos).
 - [x] Tratamento de erros resiliente (Failsafe).
 
 ## 🚀 Como Rodar o Projeto
