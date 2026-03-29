@@ -101,4 +101,4 @@ async function fetchBitcoin() {
  * Isso mantém os dados frescos sem sobrecarregar a API (Rate Limit).
  */
 fetchBitcoin();
-setInterval(fetchBitcoin, 60000);
+setInterval(fetchBitcoin, 30000);
