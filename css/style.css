@@ -89,3 +89,36 @@ footer {
   color: var(--accent-color);
   font-weight: bold;
 }
+.price-row {
+  margin: 15px 0;
+}
+.price-brl {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: var(--accent-color);
+}
+.price-usd {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 0.85rem;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.stat span {
+  color: var(--text-secondary);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+}
